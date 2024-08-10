@@ -290,7 +290,7 @@
 
 
 import React from 'react';
-
+import clg from './Photo/clg.jpeg'
 // Box Component
 const Box = ({ children }) => {
   const [isHovered, setIsHovered] = React.useState(false);
@@ -309,11 +309,20 @@ const Box = ({ children }) => {
 // AboutMe Component
 const AboutMe = () => {
   return (
+    // <section style={styles.aboutMe}>
+    //   <div style={styles.contentWrapper}>
+    //     <div style={styles.imageContainer}>
+    //       <img 
+    //         src="src/assets/Photo/clg.jpeg" 
+    //         alt="Profile" 
+    //         style={styles.image}
+    //       />
+    //     </div>
     <section style={styles.aboutMe}>
       <div style={styles.contentWrapper}>
         <div style={styles.imageContainer}>
           <img 
-            src="src/assets/Photo/clg.jpeg" 
+            src={clg} 
             alt="Profile" 
             style={styles.image}
           />

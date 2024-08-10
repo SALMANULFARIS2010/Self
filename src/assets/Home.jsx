@@ -59,7 +59,7 @@
 
 
 import React from 'react';
-
+import meImage from './Photo/me.jpeg'
 const Home = () => {
   // WhatsApp number in international format (e.g., +1234567890)
   const whatsappNumber = '+1234567890';
@@ -77,11 +77,16 @@ const Home = () => {
       padding: '0' 
     }}>
       <div>
-        <img 
+        {/* <img 
           src="src/assets/Photo/me.jpeg"
           alt="Profile" 
           style={{ borderRadius: '50%', width: '150px', height: '150px' }} 
-        />
+        /> */}
+        <img 
+  src={meImage}
+  alt="Profile" 
+  style={{ borderRadius: '50%', width: '150px', height: '150px' }} 
+/>
       </div>
       <h1 style={{ marginTop: '1rem' }}>Hi! I'm Salmanul Faris 👋</h1>
       <h3 style={{ marginTop: '1rem', maxWidth: '600px', margin: 'auto' }}>Dynamic MERN Stack Developer Specializing in <br />
