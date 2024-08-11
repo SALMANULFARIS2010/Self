@@ -93,7 +93,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer style={styles.footer}>
-      <h2 style={styles.heading}>Salmanul Faris.</h2>
+      <h2 style={styles.heading}>Place:Kochi,Kerala</h2>
       <p style={styles.email}>salmanulfaris2712@gmail.com</p>
       <div style={styles.socialLinks}>
         <a

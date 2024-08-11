@@ -336,10 +336,10 @@ const AboutMe = () => {
             professional development where I can learn the best practices and chart a fulfilling career path.
           </p>
           <div style={styles.boxes}>
-            <Box>
+            {/* <Box>
               <h3 style={styles.boxTitle}>Skills</h3>
               <p style={styles.boxContent}>HTML, CSS, JavaScript, React JS, Node JS, Express MySQL, MongoDB,Git Hub</p>
-            </Box>
+            </Box> */}
             <Box>
               <h3 style={styles.boxTitle}>Education</h3>
               <p style={styles.boxContent}>MCA (Master of Computer Applications).</p>
