@@ -99,7 +99,7 @@ const Home = () => {
       </p>
       <div style={{ marginTop: '2rem' }}>
         <a 
-          href={`https://wa.me/${8592990768}?text=Hi%20Salmanul%20Faris%2C%20I'd%20like%20to%20get%20in%20touch!`} 
+          href={`https://wa.me/${+918592990768}?text=Hi%20Salmanul%20Faris%2C%20I'd%20like%20to%20get%20in%20touch!`} 
           target="_blank" 
           rel="noopener noreferrer" 
           style={{ 
@@ -114,7 +114,7 @@ const Home = () => {
           Contact Me
         </a>
         <a 
-          href="src/assets/Cvdoc/CV.pdf" // Link to your resume file in the public directory
+          href="/src/assets/Cvdoc/CV.pdf" // Link to your resume file in the public directory
           download="Resume.pdf" // Optional: specify the name for the downloaded file
           style={{ 
             padding: '0.75rem 2rem', 
