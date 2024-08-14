@@ -560,7 +560,7 @@ const Home = () => {
         </a>
         <a 
           // href="/src/assets/Cvdoc/CV.pdf" 
-          href="../assets/Cvdoc/CV.pdf"
+          href="/public/CV.pdf"
           download="Resume.pdf" 
           style={{ 
             padding: '0.75rem 2rem', 
