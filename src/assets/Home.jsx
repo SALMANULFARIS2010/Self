@@ -255,7 +255,7 @@
 
 import React from 'react';
 import './Home.css'
-import meImage from './Photo/me.jpeg';  // You can still import this one as it's being used elsewhere
+// import meImage from './Photo/me.jpeg';  // You can still import this one as it's being used elsewhere
 
 const Home = () => {
   const whatsappNumber = '+918592990768';
@@ -280,7 +280,7 @@ const Home = () => {
         />
       </div> */}
       <div>
-  <img 
+  {/* <img 
     src={meImage}
     alt="Profile" 
     style={{ 
@@ -289,7 +289,7 @@ const Home = () => {
       maxWidth: '150px', 
       height: 'auto' 
     }} 
-  />
+  /> */}
 </div>
 
       <h1 style={{ marginTop: '1rem' }}>Hi! I'm Salmanul Faris 👋</h1>
