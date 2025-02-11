@@ -551,6 +551,60 @@ const Home = () => {
             }}
             
           />
+          <img 
+            src="https://logowik.com/content/uploads/images/mui-material-ui9415.logowik.com.webp"  // Express.js Image
+            alt="material-ui" 
+            style={{ 
+              width: '70px', 
+              height: '70px', 
+              borderRadius: '15px', 
+              backgroundColor: '#fff', 
+              padding: '10px',
+              transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+              cursor: 'pointer'
+            }} 
+           
+            onMouseEnter={e => {
+              e.currentTarget.style.boxShadow = '0 0 15px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 0, 0, 0.6)';
+              e.currentTarget.style.border = '2px solid rgba(0, 0, 0, 0.8)';
+              e.currentTarget.style.transform = 'scale(1.05)';
+              e.currentTarget.style.transition = 'all 0.3s ease';
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.boxShadow = '0 0 5px rgba(0, 0, 0, 0.5)';
+              e.currentTarget.style.border = '2px solid rgba(0, 0, 0, 0.5)';
+              e.currentTarget.style.transform = 'scale(1)';
+            }}
+            
+          />
+          <img 
+            src="https://getlogovector.com/wp-content/uploads/2021/01/tailwind-css-logo-vector.png"  // Express.js Image
+            alt="tailwindcss" 
+            style={{ 
+              width: '70px', 
+              height: '70px', 
+              borderRadius: '15px', 
+              backgroundColor: '#fff', 
+              padding: '10px',
+              transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+              cursor: 'pointer'
+            }} 
+           
+            onMouseEnter={e => {
+              e.currentTarget.style.boxShadow = '0 0 15px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 0, 0, 0.6)';
+              e.currentTarget.style.border = '2px solid rgba(0, 0, 0, 0.8)';
+              e.currentTarget.style.transform = 'scale(1.05)';
+              e.currentTarget.style.transition = 'all 0.3s ease';
+            }}
+            onMouseLeave={e => {
+              e.currentTarget.style.boxShadow = '0 0 5px rgba(0, 0, 0, 0.5)';
+              e.currentTarget.style.border = '2px solid rgba(0, 0, 0, 0.5)';
+              e.currentTarget.style.transform = 'scale(1)';
+            }}
+            
+          />
         </div>
       </div>
       <p style={{ marginTop: '1rem', maxWidth: '600px', margin: 'auto' }}>
